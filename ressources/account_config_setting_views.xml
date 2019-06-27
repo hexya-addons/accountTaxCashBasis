@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hexya>
+    <data>
+	<view id="view_account_config_cash_basis_inherit_form" model="AccountConfigSettings" >
+            <xpath expr="//p[@id='journal_config_message']" position="replace">
+                <div>
+                    <label for="tax_cash_basis_journal_id"/>
+                    <field name="tax_cash_basis_journal_id" class="oe_inline"/>
+                </div>
+            </xpath>
+        </view>
+    </data>
+</hexya>
